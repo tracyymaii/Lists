@@ -13,8 +13,15 @@ using std::stoi;
 
 // Implement ALL methods of class SortedDoubleLinkedList
 
-
+/**
+ * Sorted Double Linked List Constructor
+ * Sets the head and tail to nullptr
+ * @param none
+ * @return none
+ */
 SortedDoubleLinkedList::SortedDoubleLinkedList(){
+    _head = nullptr;
+    _tail = nullptr;
 }
 
 /**
