@@ -3,6 +3,7 @@ project(adt_list_assignment)
 
 set(CMAKE_CXX_STANDARD 14)
 
+
 add_executable(list
         list.cpp list.h
         dlinkedlist.cpp dlinkedlist.h

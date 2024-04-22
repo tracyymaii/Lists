@@ -20,8 +20,8 @@ class VSArray : public List{
 	Object** _data;
 	size_t _capacity;
 	double _delta;
-	VSArray(const VSArray&);
-	const VSArray& operator=(const VSArray&);
+	VSArray(const VSArray& list);
+	const VSArray& operator=(const VSArray& rhs);
 	void Resize();
 public:
 	VSArray(size_t capacity, double increasePercentage = 0.5);
