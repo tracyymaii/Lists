@@ -1,13 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/zQs8q9lp)
 # Implementing the Abstract Data Type List
 
-This assignment will help you practice:
+This program helped me practice the following:
 - Implementing ADT List using Variable Size Arrays
 - Implementing ADT List using Double Linked Lists
 - Implementing a Sorted List based on Double Linked Lists
 
-## Given
-You are given the following files
+## The following files
 
 | File                              | Comments                                                                               |
 |-----------------------------------|----------------------------------------------------------------------------------------|
@@ -25,14 +23,13 @@ You are given the following files
 | `vsarray.cpp`                     | Implementation of the Variable Size Array List. _You work here._                       |
 | `vsarray.h`                       | Declaration of `VSArray` class, **you should not modify** this file                    |
 
-## Your tasks
+## My tasks
 1. Implement the `DoubleLinkedList` class, that is, to implement all the methods declared in the `DoubleLinkedList` class. Remember that you are implementing the ADT List using a double linked list.
 2. Implement the `VSArray` class, that is, to implement all the methods declared in the `VSArray` class. Remember that you are implementing the ADT list using arrays and that this class has the ability to grow in size when it reaches its capacity.
 3. Implement the `SortedDoubleLinkedList` class, that is, to implement all the methods declared int he `SortedDoubleLinkedList`. This class is derived from `DoubleLinkedList` and you just need to implement two methods.
 
-> **PLEASE** understand clearly what you are doing here, the implementation or issues of this code might appear in your assessment, and also in posterior courses.
 
-## Testing your program
+## Testing the program
 
 
 1. Move to the directory where your source code is
@@ -405,13 +402,4 @@ F i n i s h e d   S u c c e s s f u l l y
 root@12345:/development/adt-list-with-sort-johnwick#
 ```
 
-
-## Reminders
-
-Your code:
-1. Should compile without warnings
-2. Should not have memory leaks, and valgrind should report 0 errors
-3. Should not crash
-4. Should apply all good programming practices, including taking advantage of the
- initialization technique in constructors. For a reminder of good programming practices you can go to Canvas.
 
